@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 import chromedriver_autoinstaller
+import time
 from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
