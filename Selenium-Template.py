@@ -40,7 +40,7 @@ for option in options:
     
 
 try:
-  driver = webdriver.Chrome(chrome_options=options)
+  driver = webdriver.Chrome(options=chrome_options)
   driver.set_window_size(2000, 2000)
   wait = WebDriverWait(driver, 8)
   driver.get("https://link-hub.net/581468/fetch-rewards")
@@ -66,7 +66,7 @@ except:
   print ("error")
 
 try:
-  driver = webdriver.Chrome(chrome_options=options)
+  driver = webdriver.Chrome(options=chrome_options)
   driver.set_window_size(2000, 2000)
   wait = WebDriverWait(driver, 8)
   driver.get("https://direct-link.net/581468/how-to-install-any-pc")
@@ -93,7 +93,7 @@ except:
 
 
 try:
-  driver = webdriver.Chrome(chrome_options=options)
+  driver = webdriver.Chrome(options=chrome_options)
   driver.set_window_size(2000, 2000)
   wait = WebDriverWait(driver, 8)
   driver.get("https://direct-link.net/581468/earn-money-for-free")
